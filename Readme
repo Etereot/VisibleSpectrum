@@ -4,7 +4,7 @@ Readme para usar git
 3. Haz una rama de desarrollo git checkout -b features
 4. haz codigo por partes sencillas, un commit por cada cosa
    si hay ficheros nuevos git add fichero
-   commit -m "mensaje introductorio"
+   commit -a -m "mensaje introductorio"
 5. subirlo: git push origin features
 
 para actualizar git pull 
