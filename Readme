@@ -1,16 +1,11 @@
 Readme para usar git
 1. haz una cuenta de github
-2. Forkea a tu cuenta
-3. Descarga el tu repositorio
-4. Haz una rama de desarrollo git checkout -b features
-5. haz codigo por partes sencillas, un commit por cada cosa
-   si agregas archivos nuevos haz git add nombre_del_archivo
-   el commit se hace git commit -m "nota para entender"
-6. haces un rebase ( daria igual pq somos pocos)
-	git checkout master
-	git remote add mainstream https://github.com/Etereot/VisibleSpectrum.git
-	git pull mainstream master
-	git checkout features
+2. clona el repo https://github.com/Etereot/VisibleSpectrum.git
+3. Haz una rama de desarrollo git checkout -b features
+4. haz codigo por partes sencillas, un commit por cada cosa
+   si hay ficheros nuevos git add fichero
+   commit -m "mensaje introductorio"
+5. subirlo: git push origin features
 
-7. git push -u origin features para subirlo a github
-8. vas a github cambias en branch a features y haces pull request
+para actualizar git pull 
+
