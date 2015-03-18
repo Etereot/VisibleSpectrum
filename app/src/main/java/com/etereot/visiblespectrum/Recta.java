@@ -45,10 +45,10 @@ import java.util.ArrayList;
         p1 = a;
 
         this.v = v;
-        n = new PointF(-v.y,v.x);
+        n = new PointF(-v.y,v.x); /* Calcula vector director(?)*/
         C = (-n.x*p1.x) - (n.y*p1.y);
 
-        recta = new ArrayList(3);
+        recta = new ArrayList(3); /* almacena ecuacion de la recta*/
         recta.add(n.x);
         recta.add(n.y);
         recta.add(C);
@@ -87,7 +87,7 @@ import java.util.ArrayList;
         //pared izquierda, x=0
         double y = -C / n.y;
         if (y>0 && y<MyView.mCanvasHeight) return new PointF(0,(float)y);
-        //pared arriva, y=0
+        //pared arriba, y=0
         double x = -C / n.x;
         if (x>0 && x<MyView.mCanvasWidth) return  new PointF((float)x,0);
         //pared derecha
@@ -96,6 +96,7 @@ import java.util.ArrayList;
 
 
     }
+   
 
 
 

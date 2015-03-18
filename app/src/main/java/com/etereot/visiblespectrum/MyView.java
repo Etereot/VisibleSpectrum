@@ -110,7 +110,7 @@ class MyView extends SurfaceView implements SurfaceHolder.Callback {
 
 
 
-            /**Array para guardar todo objeto creado para ver las colidiones,
+            /**Array para guardar todo objeto creado para ver las colisiones,
              * mas tarde debiera de ser un arbol que colocara cada objeto
              * segun el cuadrante que le toque
              */
